@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.container{width: 1140px !important;}
+/* header section start */
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url(../images/header-bg.png) center top no-repeat;
+    background-size: cover;
+}
+.header-info-text{
+    text-align: right;
+    padding-top: 20px;
+}
+.header .header-info-text p{
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: #3d2514;
+    padding-right: 7px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.header .header-info-text img{
+    padding-right: 15px;
+}
+.header .navbar-brand {
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.header .nav-item{
+    padding-left: 30px;
+}
+.header .nav-item .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header .burger-week .burger-week-left{
+    width: 100%;
+    padding-top: 180px;
+}
+.header .burger-week .burger-week-left h5{
+    font-size: 20px;
+    color: #3d2514;
+    border: 1px dashed #3d2514;
+    padding: 10px 10px;
+    width: 71%
+}
+.header .burger-week .burger-week-left h1{
+    font-size: 190px;
+    color: #3d2514;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    line-height: 160px;
+    text-shadow: 0px 5px 0px #fff;
+}
+.header .burger-week .burger-week-left h2{
+    font-size: 110px;
+    color: #3d2514;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 0px 5px 0px #fff;
+}
+.header .burger-week .burger-week-right{
+    width: 100%;
+    text-align: left;
+    
+}
+
+.header .burger-week .burger-week-right img{
+    padding-top: 30px;
+}
+/* header section end */
+/* try-it section start */
+.try-it{
+    width: 100%;
+    padding: 80px 0px;
+}
+.try-it .try-it-left{
+    width: 100%;
+}
+.try-it .try-it-left .card{
+    width: 100%;
+}
+.try-it .try-it-left .card .card-body{
+    position: absolute;
+}
+.try-it .try-it-left .card .card-body .card-title{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.try-it .try-it-left .card .card-body .card-title span{
+    font-size: 40px;
+}
+.try-it .try-it-right-top{
+    width: 100%;
+}
+.try-it .try-it-right-top .card{
+    width: 100%;
+}
+.try-it .try-it-right-top .card .card-body{
+    position: absolute;
+}
+.try-it .try-it-right-top .card .card-body .card-title{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.try-it .try-it-right-top .card .card-body .card-title span{
+    font-size: 40px;
+}
+.try-it .try-it-right-bottom{
+    width: 100%;
+    padding-top: 30px;
+}
+.try-it .try-it-right-bottom .card{
+    width: 100%;
+}
+.try-it .try-it-right-bottom .card .card-body{
+    position: absolute;
+}
+.try-it .try-it-right-bottom .card .card-body .card-title{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+.try-it .try-it-right-bottom .card .card-body .card-title span{
+    font-size: 40px;
+}
+/* try-it section end */
+/* always-tasty section satrt */
+.always-tasty{
+    width: 100%;
+}
+.always-tasty .always-tasty-top button{
+    padding: 5px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #3d2514;
+    margin-bottom: 30px;
+}
+.always-tasty .always-tasty-top h1{
+    font-size: 55px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.always-tasty .always-tasty-top p{
+    color: #3d2514;
+    margin-bottom: 60px;
+}
+.always-tasty .always-tasty-box img{
+    width: 100%;
+    height: 305px;
+}
+.always-tasty .always-tasty-box h1{
+    color: #3d2514;
+}
+.always-tasty .always-tasty-box p{
+    color: #3d2514;
+    margin-bottom: 40px;
+}
+.always-tasty .always-tasty-box button{
+    padding: 15px 32px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* always-tasty section end */
+/* discover section start */
+.discover{
+    width: 100%;
+    padding-top: 80px;
+}
+.discover .discover-left{
+    width: 100%;
+}
+.discover .discover-left h5{
+    font-size: 30px;
+    color: #3d3d3d;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+.discover .discover-left h1{
+    font-size: 33px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.discover .discover-left p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #3d2514;
+}
+.discover-left-bol{
+    display: inline-flex;
+    padding-top: 60px;
+}
+.discover-left-bol .discover-left-bol-1{
+    width: 20px;
+    height: 20px;
+    background-color: #ffc045;
+    border-radius: 100%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.discover-left-bol .discover-left-bol-2{
+    width: 20px;
+    height: 20px;
+    background-color: #dcdcdc;
+    border-radius: 100%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.discover-left-bol .discover-left-bol-3{
+    width: 20px;
+    height: 20px;
+    background-color: #dcdcdc;
+    border-radius: 100%;
+    cursor: pointer;
+}
+/* discover section end */
+/* book-table section start */
+.book-table{
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 160px;
+    background: url(../images/book-Burger.png),url(../images/Bottle.png),url(../images/book-Image.png);
+    background-repeat: no-repeat;
+    background-position: 0px 30px, 180px 255px, 1586px 285px;
+}
+.book-table .book-table-top h5{
+    font-size: 35px;
+    color: #3d2514;
+}
+.book-table .book-table-top h1{
+    font-size: 55px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-bottom: 80px;
+}
+.book-table .book-table-left{
+    width: 100%;
+}
+.book-table .book-table-left input{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 20px;
+    color: #3d2514;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.book-table .book-table-right{
+    width: 100%;
+}
+.book-table .book-table-right input{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 20px;
+    color: #3d2514;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+.book-table .book-table-right::placeholder{
+    color: #3d2514;
+}
+.book-table .book-table-right input[type='submit']{
+    color: #fff;
+    background-color: #bf2222;
+    font-family: 'Alfa Slab One';
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 13px;
+}
+/* book-table section end */
+.footer{
+    width: 100%;
+    background: url(../images/footer.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.footer-left{
+    padding-top: 80px;
+}
+.footer-left-p{
+    padding-top: 50px;
+    padding-bottom: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28x;
+}
+.footer-location{
+    width: 100%;
+    display: flex;
+    padding-top: 235px;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.footer-location .fas{
+    font-size: 40px;
+    padding-left: 4px;
+}
+.footer-location p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 26px;
+}
+.footer-email{
+    width: 100%;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.footer-email .fas{
+    font-size: 40px;
+    padding-right: 20px;
+}
+.footer-email p{
+    font-size: 18px;
+    padding-top: 7px;
+}
+.footer-social-icon{
+    padding-top: 150px;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.footer-social-icon .fab{
+    font-size: 30px;
+    border-radius: 100%;
+    padding-left: 10px;
+    color: #fff;
+}
+.footer-copy-right{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
