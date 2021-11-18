@@ -166,6 +166,9 @@ a, a:hover{
     color: #3d2514;
     margin-bottom: 30px;
 }
+.always-tasty .always-tasty-top button:hover{
+    background: transparent;
+}
 .always-tasty .always-tasty-top h1{
     font-size: 55px;
     font-family: 'Alfa Slab One', cursive;
@@ -194,6 +197,11 @@ a, a:hover{
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 2px;
     text-transform: uppercase;
+    background-color: #bf2222;
+}
+.always-tasty .always-tasty-box button:hover{
+    background: transparent;
+    color: #bf2222;
 }
 /* always-tasty section end */
 /* discover section start */
@@ -308,6 +316,11 @@ a, a:hover{
     border: none;
     border-radius: 5px;
     padding: 18px 13px;
+}
+.book-table .book-table-right input[type='submit']:hover{
+    background: transparent;
+    border: 1px solid #bf2222;
+    color: #bf2222;
 }
 /* book-table section end */
 .footer{
